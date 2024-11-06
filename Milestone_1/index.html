@@ -7,60 +7,110 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="resume-container">
-        <div class="left-section">
-            <img src="Profile Pic(1)_280x280.jpeg" alt="Profile Picture" class="">
-            <section id="objective">
-                <h3 style="color: white;">Career Objective</h3>
-                <p style="text-align: justify; hyphens: auto;">To secure an employment opportunity with a progressive organisation, where i can utilize my professional skills and knowledge to maximum add value in the growth of the organisation.</p>
-            </section>
+    <div class="resumeDiv">
+        <header>
+            <div>
+                <h1 class="white">Muhammad Hamza</h1>
+                <p class="white">Frontend Developer</p>
+            </div>
+            <img src="img.png" alt="">
+        </header>
 
-            <section id="certifications">
-                <h3 style="color: white;">Certifications</h3>
-                <p><b>WordPress:</b> From Digi Skill</p>
-                <p><b>Artificial Intelligence, Web 3.0 & Metaverse:</b> From Governor House Karachi (Ongoing)</p>
+        <div class="content">
+            <aside>
+                <section id="contact" class="contact">
+                    <h2>Contact</h2>
+                    <p><strong>Phone</strong></p>
+                    <p>0300-0036488</p>
+                    <br>
+                    <p><strong>Email</strong></p>
+                    <p>muhammadhamza9191@gmail.com</p>
+                    <br>
+                    <p><strong>Address</strong></p>
+                    <p>Kharadar Karachi</p>
+                </section>
 
-            </section>
-        </div>
+                <section id="edu" class="education">
+                    <h2>Education</h2>
+                    <p><strong>Intermediate</strong></p>
+                    <p>Fsc Pre-Engineer from Degree Collage</p>
+                    <br>
+                    <p><strong>Matriculation</strong></p>
+                    <p>From Khanewal</p>
+                </section>
 
-        <div class="right-section">
-            <h1>Static Interactive Resume</h1>
-            <section id="personal-info">
-                <h3>Personal Information</h3>
-                <p><b>Name:</b> Muhammad Hamza</p>
-                <p><b>Phone:</b> 0300-0036488</p>
-                <p><b>Email:</b> <a href="mailto:muhammadhamza9191@gmail.com" target="_blank">muhammadhamza9191@gmail.com</a></p>
-                <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/muhammad-hamza-03b7bb2b4" target="_blank">www.LinkedIn.com</a></p>
-            </section>
+                <section id="skill" class="skill">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>TypeScript</li>
+                        <li>Next.Js</li>
+                        <li>Node.Js</li>
+                    </ul>
+                </section>
 
-            <section id="education">
-                <h3>Education</h3>
-                <p><b>Intermediate:</b> Fsc Pre-Engineer from Degree Collage Khanewal</p>
-                <p><b>Matriculation:</b> From Khanewal</p>
-            </section>
+                <section id="lag" class="language">
+                    <h2>Language</h2>
+                    <p>English</p>
+                    <p>Urdu</p>
+                </section>
+            </aside>
 
-            <section id="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>TypeScript</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>MS Office</li>
-                    <li>WordPress</li>
-                    <li>Cummunication Skills</li>
-                </ul>
-            </section>
+            <main class="main-content">
+                <section id="experience" class="experience">
+                    <h2>Work Experience</h2>
+                    <div class="experience-items">
+                        <p>2020-2024</p>
+                        <p><strong>XYZ company | Karachi</strong></p>
+                        <p>abc Developer</p>
+                        <ul>
+                            <li>Developed new features</li>
+                            <li>Implemented new features</li>
+                            <li>Debugged existing code</li>
+                        </ul>
+                    </div>
 
-            <section id="work-experience">
-                <h3>Work Experience</h3>
-                 <p>Seeking an opportunity as a fresh candidate to start my professional career</p>
-            </section>
+                    <div class="experience-items">
+                        <p>2020-2024</p>
+                        <p><strong>XYZ company | Karachi</strong></p>
+                        <p>abc Developer</p>
+                        <ul>
+                            <li>Developed new features</li>
+                            <li>Implemented new features</li>
+                            <li>Debugged existing code</li>
+                        </ul>
+                    </div>
 
-            <button id="toggle-skills"><b>Hide/Show Skills</b></button>
+                    <div class="experience-items">
+                        <p>2020-2024</p>
+                        <p><strong>XYZ company | Karachi</strong></p>
+                        <p>abc Developer</p>
+                        <ul>
+                            <li>Developed new features</li>
+                            <li>Implemented new features</li>
+                            <li>Debugged existing code</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="ref" class="reference">
+                    <h2>Refrence</h2>
+                    <p>Available upon reuest</p>
+                </section>
+            </main>
         </div>
     </div>
 
+    <div class="btnDiv">
+        <button id="contact_btn" class="btn">Contact</button>
+        <button id="edu_btn" class="btn">Education</button>
+        <button id="skill_btn" class="btn">Skills</button>
+        <button id="lag_btn" class="btn">Language</button>
+        <button id="exp_btn" class="btn">Experience</button>
+        <button id="ref_btn" class="btn">Refrence</button>
+        <button id="print_btn" class="btn">Print</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
